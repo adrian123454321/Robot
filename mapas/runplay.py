@@ -1,8 +1,9 @@
-a=open("mapa1.txt")
-for lista in a:
-	print(lista)
-	lista.append(list(lista.strip()))
-print (lista)
+lista=[]
+def cargar_mapa():
+	p=open("mapa1.txt")
+	for l in p:
+		print(l)
+		lista.append(list(b.strip()))
+	print (lista)
 
-def comandos():
-	ins=open("programa_1.txt")
+
