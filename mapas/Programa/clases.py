@@ -15,3 +15,4 @@ class robot():
 	def rotar(self):
 
 	def recoger(self):
+		
