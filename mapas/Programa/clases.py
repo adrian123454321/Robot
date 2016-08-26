@@ -3,12 +3,12 @@
 	#mover
 	#rotar
 	#recoger
-class robot():
-	def __init__(self,x,y,monedas,direccion):
-		self.x=0
-		self.y=0
+class robot(onject):
+	def __init__(self,x,y,,direccion):
+		self.x=x
+		self.y=y
 		self.monedas=0
-		self.direccion=0
+		self.direccion="UP"
 	def mover(self):
 
 
@@ -16,3 +16,5 @@ class robot():
 
 	def recoger(self):
 		
+class Mapa():
+	def __init__(self,ancho,alto):
