@@ -1,11 +1,11 @@
 import time
 
-mao_ancho=70
-map_alto=19
+map_ancho=40
+map_alto=15
 
-def imprimit(x,Y):
-	result = (" " * map_ancho) * Y
-	result += " " * X +"*"
+def imprimir(x,y):
+	result = (" " * map_ancho) * y
+	result += " " * x +"*"
 	result += " "* map_ancho * (map_alto-(y+1))
 	return result
 
