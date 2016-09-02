@@ -11,23 +11,29 @@ class Robot(object):
 		self.direccion="UP"
 		self.mapa=None
 	def mover(self):
-
-
-
+		if self.direccion=="UP":
+			self.y-=1
+		elif self.dereccion=="RIGHT":
+			self.x+=1
+		elif self.direccion=="DOWN":
+			self.y+=1
+		else self.x-=1
 
 	def rotar(self):
-		if self.direccion=="UP"
-			return "^"
-		if self.direccion=="RIGHT"
-			return ">"
-		if self.direccion=="LEFT"
-			return "<"
-		if self.direccion=="DOWN"
-			return "v"
+		if self.direccion=="UP":
+			self.direccion="RIGHT"
+
+		elif self.direccion=="RIGHT":
+			self.dereccion="DOWN"
+
+		elif self.direccion=="DOWN":
+			self.direccion="LEFT"
+
+		else self.direccion=="UP":
 
 	def recoger(self):
-		for a in range(len(mapa))
-			a=list(mapa.strip())
+		
+		for  in range(len(mapa))
 
 
 	def representar(self):
