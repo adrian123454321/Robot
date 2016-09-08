@@ -10,6 +10,7 @@ class Robot(object):
 		self.monedas=0
 		self.direccion="UP"
 		self.mapa=None
+
 	def mover(self):
 		if self.direccion=="UP":
 			self.y-=1
@@ -24,16 +25,23 @@ class Robot(object):
 			self.direccion="RIGHT"
 
 		elif self.direccion=="RIGHT":
-			self.dereccion="DOWN"
+			self.direccion="DOWN"
 
 		elif self.direccion=="DOWN":
 			self.direccion="LEFT"
 
 		else self.direccion=="UP":
 
-	def recoger(self):
-		
-		for  in range(len(mapa))
+	def recoger(self):		
+		if self.contar_monedas(self.x,self.y)>0:
 
 
 	def representar(self):
+		if self.direccion=="UP"
+			return "^"
+		elif self.direccion"RIGHT":
+			return">"
+		elif self.direccion=="DOWN"
+			return"v"
+		else:
+			return"<" 

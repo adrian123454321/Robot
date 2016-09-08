@@ -7,3 +7,4 @@ def cargar_mapa():
 	print (lista)
 
 
+
