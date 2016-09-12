@@ -37,11 +37,10 @@ class Robot(object):
 
 
 	def representar(self):
-		if self.direccion=="UP"
+		if self.direccion=="UP":
 			return "^"
 		elif self.direccion"RIGHT":
 			return">"
-		elif self.direccion=="DOWN"
+		elif self.direccion=="DOWN":
 			return"v"
-		else:
-			return"<" 
+		elif self.direccion=="LEFT"
