@@ -34,7 +34,8 @@ class Robot(object):
 
 	def recoger(self):		
 		if self.contar_monedas(self.x,self.y)>0:
-
+			self.moneda+=1
+			self.mapa.quitar_moneda(x,y)
 
 	def representar(self):
 		if self.direccion=="UP":
@@ -44,3 +45,4 @@ class Robot(object):
 		elif self.direccion=="DOWN":
 			return"v"
 		elif self.direccion=="LEFT"
+

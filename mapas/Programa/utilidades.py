@@ -5,7 +5,7 @@ def cargar_mapa():
 		print(l)
 		lista.append(list(l.strip()))
 	print (lista)
-#lista de listas 
+
 def cargar_instrucciones():
 	lista=[]
 	p=open("programa/programa_1.txt")
