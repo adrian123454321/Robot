@@ -21,4 +21,4 @@ class Mapa(object):
 			if a=self.x and a=self.y:
 				self.monedas.pop(monedas)
 
-	def dibujar_mapa(self):
+	
